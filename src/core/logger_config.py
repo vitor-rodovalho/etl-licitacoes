@@ -2,7 +2,7 @@ import logging
 import sys
 
 
-def setup_logging(verbose: bool = False):
+def setup_logging(verbose: bool = False) -> None:
     """
     Configura o sistema de logging para a aplicação.
 

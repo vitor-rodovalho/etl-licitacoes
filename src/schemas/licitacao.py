@@ -90,18 +90,18 @@ class Licitacao(BaseModel):
                 "anexos_processados": ["edital_retificado.pdf", "anexo_lotes.pdf"],
                 "itens_extraidos": [
                     {
-                        "lote": "G1",
+                        "lote": "1",
                         "item": 1,
                         "objeto": "Computador Desktop i7 16GB",
                         "quantidade": 10,
-                        "unidade_fornecimento": "UN",
+                        "unidade_fornecimento": "Unidade",
                     },
                     {
-                        "lote": None,
+                        "lote": "1",
                         "item": 2,
                         "objeto": "Monitor 24 Polegadas",
                         "quantidade": 10,
-                        "unidade_fornecimento": "UN",
+                        "unidade_fornecimento": "Unidade",
                     },
                 ],
             }

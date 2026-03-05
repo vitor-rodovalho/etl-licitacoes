@@ -2,7 +2,20 @@
 HEADER_MAPPING = {
     "item": ["item", "it"],
     "quantidade": ["quantidade", "quant", "qtd", "qtdd", "qtde", "qte", "unidades"],
-    "objeto": ["objeto", "descricao", "especificacao", "discriminacao", "servico", "natureza"],
-    "unidade_fornecimento": ["unidade", "unid", "und", "undd", "u.m.", "emb"],
+    "objeto": [
+        "objeto",
+        "descricao",
+        "descrição",
+        "especificacao",
+        "especificação",
+        "especificacoes",
+        "especificações",
+        "discriminacao",
+        "discriminação",
+        "servico",
+        "natureza",
+        "produto",
+    ],
+    "unidade_fornecimento": ["unidade", "unid", "und", "undd", "u.m.", "un", "un."],
     "lote": ["lote", "grupo"],
 }

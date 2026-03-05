@@ -13,7 +13,7 @@ class ExtractionPipeline:
     Conecta a entrada (CLI), o processamento (Orchestrator) e a saída (JSON).
     """
 
-    def run(self, input_path: Path, output_path: Path):
+    def run(self, input_path: Path, output_path: Path) -> None:
         """
         Função principal que orquestra a execução do pipeline de processamento de licitações.
 
@@ -40,8 +40,7 @@ class ExtractionPipeline:
 
         logger.info("=== Pipeline finalizado com sucesso ===")
 
-
-    def _validate_input(self, input_path: Path):
+    def _validate_input(self, input_path: Path) -> None:
         """
         Valida se o input é processável.
 
@@ -61,8 +60,7 @@ class ExtractionPipeline:
         if not any(input_path.iterdir()):
             logger.warning(f"Atenção: O diretório {input_path} está vazio.")
 
-
-    def _save_results(self, data: list, output_path: Path):
+    def _save_results(self, data: list, output_path: Path) -> None:
         """
         Gerencia a escrita do arquivo final.
 
