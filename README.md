@@ -1,3 +1,11 @@
+![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg?logo=python&logoColor=white)
+![Docker Ready](https://img.shields.io/badge/docker-Ready-2496ED.svg?logo=docker&logoColor=white)
+![uv](https://img.shields.io/badge/uv-Enabled-purple.svg?logo=python)
+![Pydantic](https://img.shields.io/badge/Pydantic-Validated-e92063.svg?logo=pydantic&logoColor=white)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+
+
+
 # 📄 Extrator de Dados de Licitações (PDF/DOCX)
 
 Um serviço de Extração e Transformação de Dados (ETL) projetado para ler documentos semiestruturados de licitações públicas (Editais, Termos de Referência, Relação de Itens) e convertê-los em dados estruturados no formato JSON.
